@@ -14,51 +14,51 @@ document.addEventListener('DOMContentLoaded',() => {
 const cardArray= [
 {
 name:'fries',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/fries.png',
+img: 'Images/fries.png',
 },
 {
 name:'cheeseburger',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/cheeseburger.png',
+img: 'Images/cheeseburger.png',
 },
 {
 name:'icecream',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/ice-cream.png',
+img: 'Images/ice-cream.png',
 },
 {
 name:'pizza',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/pizza.png'
+img: 'Images/pizza.png'
 },
 {
 name:'milkshake',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/milkshake.png'
+img: 'Images/milkshake.png'
 },
 {
 name:'hotdog',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/hotdog.png'
+img: 'Images/hotdog.png'
 },
 {
 name:'fries',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/fries.png',
+img: 'Images/fries.png',
 },
 {
 name:'cheeseburger',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/cheeseburger.png',
+img: 'Images/cheeseburger.png',
 },
 {
 name:'icecream',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/ice-cream.png',
+img: 'Images/ice-cream.png',
 },
 {
 name:'pizza',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/pizza.png'
+img: 'Images/pizza.png'
 },
 {
 name:'milkshake',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/milkshake.png'
+img: 'Images/milkshake.png'
 },
 {
 name:'hotdog',
-img: 'C:/Users/macewan/Documents/Project Shopping Cart/Images/hotdog.png'
+img: 'Images/hotdog.png'
 }
 ]
 
@@ -99,20 +99,20 @@ const optiontwoId  = cardsChosenIds[1]
 
 if (optiononeId === optiontwoId) {
 alert('You have clicked  same image!')
-cards[optiononeId].setAttribute('src', 'images/blank.png')
-cards[optiontwoId].setAttribute('src', 'images/blank.png')
+cards[optiononeId].setAttribute('src', 'Images/blank.png')
+cards[optiontwoId].setAttribute('src', 'Images/blank.png')
  }
 else if(cardsChosen[0] === cardsChosen[1]) {
    alert('You have found a match!')
-   cards[optiononeId].setAttribute('src','C:/Users/macewan/Documents/Project Shopping Cart/Images/white.png')
-   cards[optiontwoId].setAttribute('src','C:/Users/macewan/Documents/Project Shopping Cart/Images/white.png')
+   cards[optiononeId].setAttribute('src','Images/white.png')
+   cards[optiontwoId].setAttribute('src','Images/white.png')
    cards[optiononeId].removeEventListener('click',flipCard)
    cards[optiontwoId].removeEventListener('click',flipCard)
    cardsWon.push(cardsChosen)
 }
 else{
-  cards[optiononeId].setAttribute('src','C:/Users/macewan/Documents/Project Shopping Cart/Images/blank.png')
-  cards[optiontwoId].setAttribute('src','C:/Users/macewan/Documents/Project Shopping Cart/Images/blank.png')
+  cards[optiononeId].setAttribute('src','Images/blank.png')
+  cards[optiontwoId].setAttribute('src','Images/blank.png')
   alert('Try Again!')
 }
   cardsChosen = []
