@@ -74,7 +74,7 @@ let cardsWon = []
 function createBoard() {
 for(let i=0; i<cardArray.length; i++) {
    const card = document.createElement('img');
-   card.src = 'C:\Users\macewan\Downloads\Project Memory Games\Images\blank.png';
+   card.src('Images\blank.png');
    card.setAttribute('data-id', i);
    card.addEventListener('click', flipCard);
    grid.appendChild(card);
